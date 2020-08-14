@@ -328,7 +328,7 @@ class CocoJsonCreator():
         }
 
         # Write the json to a file
-        output_path = Path(self.dataset_dir) / 'coco_instances_more-imgs.json'
+        output_path = Path(self.dataset_dir) / 'coco_instances_road_signs.json'
         with open(output_path, 'w+') as output_file:
             json.dump(master_obj, output_file)
 
